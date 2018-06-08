@@ -1,6 +1,8 @@
 # Product-Landing-Page
 ## A product landing page project for Free Code Camp Responsive Web Design Project
 
+Here is a link to a fully working example on CodePen [Check out example](https://codepen.io/freeCodeCamp/full/RKRbwL)
+
 ### Here is a list of the required User Stories for the project
 
 1. My product landing page should have a header element with a corresponding id="header".
