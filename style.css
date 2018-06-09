@@ -1,0 +1,28 @@
+body {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar img {
+    height: 50px;
+    width: 20%;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+#header {
+    border: 5px solid rgba(31, 250, 11, 0.822);
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 3;
+    flex-direction: row-reverse;
+    margin-right: 5px;
+}
