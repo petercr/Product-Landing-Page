@@ -1,8 +1,23 @@
+/* Basic color scheme provided by www.canva.com/learn/100-color-combinations/ */
+/* Held in CSS variables for easy styling */
+
+:root {
+
+    --blue-sky: #4cb5f5;
+    --granite: #b7b8b6;
+    --pine: #34575c;
+    --fields: #B3C100;
+}
+
+/* Global element styling */
+
 body {
     width: 100vw;
     padding: 0;
     margin: 0;
 }
+
+/* Navbar styling */
 
 #nav-bar img {
     height: 50px;
@@ -15,7 +30,7 @@ body {
 }
 
 #header {
-    border: 5px solid rgba(31, 250, 11, 0.822);
+    border: 5px solid var(--fields);
 }
 
 .nav-right {
@@ -25,4 +40,8 @@ body {
     flex-grow: 3;
     flex-direction: row-reverse;
     margin-right: 5px;
+}
+
+#nav-bar a {
+    color: var(--pine);
 }
