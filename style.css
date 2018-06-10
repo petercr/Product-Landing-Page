@@ -43,5 +43,12 @@ body {
 }
 
 #nav-bar a {
-    color: var(--pine);
+    color: var(--granite);
+    font-size: 20px;
+    box-shadow: 2px 2px 2px grey;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    
+     
 }
