@@ -48,7 +48,18 @@ body {
     box-shadow: 2px 2px 2px grey;
     text-decoration: none;
     border-radius: 5px;
-    padding: 5px;
-    
-     
+    padding: 5px;    
+}
+
+/* Styling for #services */
+#services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.card {
+    height: 25%;
+    width: 25%;
 }
