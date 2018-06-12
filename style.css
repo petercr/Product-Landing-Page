@@ -99,7 +99,7 @@ header {
 }
 
 #take-a-look iframe {
-    width:70vh;
+    width:70vw;
     height: 45vh;
 }
 
@@ -116,4 +116,15 @@ header {
     justify-content: center;
     padding-top: 10vh;
     font-size: 20px;
+}
+
+/* Media Queries for smaller screens */
+@media screen (min-width: 600px) {
+    #take-a-look iframe {
+        width: 75vw;
+    }
+
+    .card {
+        font-size: 14px;
+    }
 }
