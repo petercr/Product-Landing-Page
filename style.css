@@ -17,6 +17,11 @@ body {
     margin: 0;
 }
 
+video {
+    display: none;
+
+}
+
 /* Navbar styling */
 
 #nav-bar img {
@@ -43,7 +48,7 @@ body {
 }
 
 #nav-bar a {
-    color: var(--granite);
+    color: var(--pine);
     font-size: 20px;
     box-shadow: 2px 2px 2px grey;
     text-decoration: none;
@@ -69,3 +74,16 @@ body {
     display: block;
     height: auto;
     }
+
+/* Styling for #take-a-look section */
+#take-a-look {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#take-a-look iframe {
+    width:70vh;
+    height: 45vh;
+}
