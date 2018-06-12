@@ -27,7 +27,7 @@ header {
   top: 0;
   left: 0;
   margin: auto;
-  width: 99%;
+  width: 100%;
 }
 
 /* Navbar styling */
@@ -43,7 +43,8 @@ header {
 }
 
 #header {
-    border: 5px solid var(--fields);
+    /* border: 5px solid var(--fields); */
+    background: var(--fields);
 }
 
 .nav-right {
@@ -57,6 +58,7 @@ header {
 
 #nav-bar a {
     color: var(--pine);
+    background: #ffffff;
     font-size: 20px;
     box-shadow: 2px 2px 2px grey;
     text-decoration: none;
@@ -70,6 +72,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10vh;
+    margin-bottom: 25px;
     align-items: center;
 }
 
